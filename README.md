@@ -1,24 +1,19 @@
-# README
+**Rails mini challenge**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create a new project.
 
-Things you may want to cover:
+>Scaffolding saves us time but it's important you can implement CRUD manually.
 
-* Ruby version
+>You're about to implement Students CRUD without scaffolding. Students will have a name (string) and notes (text).
 
-* System dependencies
+>Before you start coding each step, discuss with your partner what you'll need (which routes, controllers, etc.).
 
-* Configuration
+>Move slowly, one step at a time. Commit early and often. Reference existing scaffolding code if you get stuck!
 
-* Database creation
+*Beast Mode*
 
-* Database initialization
+>1. In the same project, create a Pizza model and add a few pizzas in console (Hawaiian, etc). Don't worry about pizza views, routes, etc.
 
-* How to run the test suite
+>2. Create an association so that a student can have a favourite pizza. The student form should have a dropdown of all the pizzas.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+>This is a mini challenge from my Bootcamp course covering Ruby on Rails. Purpose of this challenge is to practise on Rails, with associations and setting up controllers and models without the aid from scaffolding.
