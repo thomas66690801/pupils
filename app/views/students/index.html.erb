@@ -3,7 +3,7 @@
 <h1> Student list: </h1>
 <p>
 <% @students.each do |student| %>
-<strong>|&emsp; <%= student.name %> </strong> &emsp;|
+<strong>|&emsp; <%= student.name %> </strong> &emsp;|<%=  %>
 <br/> <%= student.note %>
 <br/>
 <%= link_to 'Edit', edit_student_path(student) %> &emsp;

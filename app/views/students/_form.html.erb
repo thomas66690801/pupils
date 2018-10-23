@@ -25,6 +25,13 @@
     <%= form.text_area :note %>
   </p>
  
+<p>
+    <%= form.label :flavour %><br>
+    <%= form.collection_select(:pizza_id, Pizza.all, :id, :flavour, prompt: 'Select Pizza') %>
+  </p>
+ 
+
+
   <p>
     <%= form.submit %>
   </p>
