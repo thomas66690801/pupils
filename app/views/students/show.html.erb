@@ -1,3 +1,5 @@
 <h1> <%= @student.name %> </h1>
-<p> <%= @student.note %> </p>
+<p> <strong> Note : </strong><%= @student.note %> </p>
+<p> <strong>Favourite Pizza :</strong>
+<%= Pizza.find(@student.pizza_id).flavour %>
 
